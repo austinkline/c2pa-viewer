@@ -1,0 +1,25 @@
+{
+  "name": "c2pa-viewer",
+  "version": "0.0.0",
+  "dependencies": {
+    "@contentauth/react": "^0.2.65",
+    "c2pa": "0.20.0",
+    "c2pa-wc": "^0.13.15",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.13.1",
+    "@types/react-dom": "^16.9.9",
+    "@vitejs/plugin-react": "^1.1.0",
+    "postcss": "~8.4.12",
+    "postcss-nesting": "^10.0.2",
+    "typescript": "~4.6.3",
+    "vite": "^3.0.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  }
+}
